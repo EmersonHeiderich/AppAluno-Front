@@ -150,7 +150,11 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
+<<<<<<< HEAD
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Natan\Documents\GitHub\AppAluno-Front\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Natan\Documents\GitHub\AppAluno-Front\src\app\app.html"*/
+=======
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\emers\Projetos Ionic\AppAluno\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\emers\Projetos Ionic\AppAluno\src\app\app.html"*/
+>>>>>>> 2bd0445dc8b9d63c3228a377a260a14e5fa603eb
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -195,7 +199,11 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-login',template:/*ion-inline-start:"C:\Users\Natan\Documents\GitHub\AppAluno-Front\src\pages\login\login.html"*/'<ion-content class="login-content" padding>\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col>\n      <img src="../../assets/imgs/logo-student.png" />\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div class="login-box">\n    <form>\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            <ion-item>\n              <ion-label style="color: rgb(15, 6, 63)" stacked>E-mail ou RA</ion-label>\n              <ion-input type="text"></ion-input>\n            </ion-item>\n\n            <ion-item>\n              <ion-label style="color: rgb(15, 6, 63)" stacked>Senha</ion-label>\n              <ion-input type="password"></ion-input>\n            </ion-item>\n\n          </ion-list>\n        </ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit">Entrar</button>\n        </ion-col>\n      </ion-row>\n\n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\Natan\Documents\GitHub\AppAluno-Front\src\pages\login\login.html"*/,
+=======
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\emers\Projetos Ionic\AppAluno\src\pages\login\login.html"*/'<ion-content class="login-content" padding>\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col>\n      <img src="../../assets/imgs/logo-student.png" />\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div>\n    <form>\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            <ion-item>\n              <ion-input type="login" placeholder="E-mail ou RA"></ion-input>\n            </ion-item>\n            <ion-item>\n              <ion-input type="senha" placeholder="Senha"></ion-input>\n            </ion-item>\n          </ion-list>\n        </ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit">Entrar</button>\n        </ion-col>\n      </ion-row>\n\n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\emers\Projetos Ionic\AppAluno\src\pages\login\login.html"*/,
+>>>>>>> 2bd0445dc8b9d63c3228a377a260a14e5fa603eb
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], LoginPage);
