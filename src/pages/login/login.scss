@@ -3,6 +3,7 @@ page-login {
         background-image: url("../../assets/imgs/background-login.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
         .logo-row {
           padding-top: 50px;
@@ -11,11 +12,9 @@ page-login {
      
         .login-box {
           background-color: white;
-          padding: 20px 20px 0px 20px;
-          border-color: gray;
+          border-color:white;
           box-shadow: 1px 1px 1px 1px;
           border-radius: 6px;
-          margin-top: 30px;
         }
      
         .ion-row {
@@ -44,7 +43,7 @@ page-login {
          }
      
          .submit-btn {
-           background: #51CFB1;
+           background: rgb(38, 201, 16);
            border-radius: 30px !important;
            border: 1px solid #ffffff;
          }
