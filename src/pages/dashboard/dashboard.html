@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title></ion-title>
+
+    <ion-buttons end>
+      <img (click)="inicio()" src="../../assets/imgs/logo-student35x35.png" />
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="width: 100%">
+  <ion-list-header>
+    Horários
+  </ion-list-header>
+  <ion-grid>
+    <ion-row style="width: 100%; border: 1px solid blue; border-radius: 5px">
+      <ion-col col-2>Seg</ion-col>
+      <ion-col col-2>Ter</ion-col>
+      <ion-col col-2>Qua</ion-col>
+      <ion-col col-2>Qui</ion-col>
+      <ion-col col-2>Sex</ion-col>
+      <ion-col col-2>Sab</ion-col>
+    </ion-row>
+    
+  </ion-grid>
+  <ion-row>
+    <ion-col>
+      <button ion-button (click)="novoAluno()" full type="submit">Novo Aluno</button>
+    </ion-col>
+  </ion-row>
+</ion-content>
