@@ -13,7 +13,7 @@
     Horários
   </ion-list-header>
   <ion-grid>
-    <ion-row style="width: 100%; border: 1px solid blue; border-radius: 5px">
+    <ion-row style="width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px; box-shadow: 1px 1px 1px 1px blue; color: black; font-weight: bold;">
       <ion-col col-2>Seg</ion-col>
       <ion-col col-2>Ter</ion-col>
       <ion-col col-2>Qua</ion-col>
@@ -21,11 +21,90 @@
       <ion-col col-2>Sex</ion-col>
       <ion-col col-2>Sab</ion-col>
     </ion-row>
-    
+    <ion-row style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; box-shadow: 1px 1px 1px 1px blue;">
+      <ion-col col-2 style="font-size: 10px">
+        Lab 8 <br />
+        Thiago
+      </ion-col>
+    </ion-row>
   </ion-grid>
+  <ion-list-header>
+    Trabalhos
+  </ion-list-header>
+
+  <ion-row style="width: 100%; border-radius: 3px; box-shadow: 1px 1px 1px 1px orangered;">
+    <ion-row style="padding-top: 5px">
+      <h6 style="text-align: center;border-bottom: 1px solid orangered; border-radius: 6px">
+        Trabalho Semestral - Roberto Padilha
+      </h6>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        descricaodotrabalhod escricaodotrabalhodescricaodo trabalhodescricaodotrabalho descricaodotrabalhodescricao
+        dotrabalhodescricaodotrabalho descricaodotrabalho
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div></div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <p>
+          Nota: 0/1.5
+        </p>
+      </ion-col>
+      <ion-col col-4 style="text-align: center">
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up" color="secondary"></ion-icon>
+          <div style="color: #32db64">Enviado!</div>
+        </button>
+
+      </ion-col>
+    </ion-row>
+  </ion-row>
+  <br />
+  <ion-row style="width: 100%; border-radius: 3px; box-shadow: 1px 1px 1px 1px orangered;">
+    <ion-row style="padding-top: 5px">
+      <h6 style="text-align: center;border-bottom: 1px solid orangered; border-radius: 6px">
+        UML - Thiago Casagrande
+      </h6>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        descricaodotrabalhod escricaodotrabalhodescricaodo trabalhodescricaodotrabalho descricaodotra 
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-2>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div></div>
+        </button>
+      </ion-col>
+      <ion-col col-5>
+          <p>
+            Nota: indefinida
+          </p>
+        </ion-col>
+      <ion-col col-5 style="text-align: center">
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up" color="danger"></ion-icon>
+          <div style="color: red">Não Enviado!</div>
+        </button>
+
+      </ion-col>
+    </ion-row>
+  </ion-row>
+
+
+</ion-content>
+<ion-footer>
   <ion-row>
     <ion-col>
       <button ion-button (click)="novoAluno()" full type="submit">Novo Aluno</button>
     </ion-col>
   </ion-row>
-</ion-content>
+</ion-footer>

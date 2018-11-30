@@ -25678,10 +25678,7 @@ page-login .login-content {
   background-image: url("../../assets/imgs/background-login.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   background-attachment: fixed;
-=======
->>>>>>> 2bd0445dc8b9d63c3228a377a260a14e5fa603eb
 }
 
 page-login .logo-row {
@@ -25691,19 +25688,10 @@ page-login .logo-row {
 
 page-login .login-box {
   background-color: white;
-<<<<<<< HEAD
   border-color: white;
   -webkit-box-shadow: 1px 1px 1px 1px;
   box-shadow: 1px 1px 1px 1px;
   border-radius: 6px;
-=======
-  padding: 20px 20px 0px 20px;
-  border-color: gray;
-  -webkit-box-shadow: 1px 1px 1px 1px;
-  box-shadow: 1px 1px 1px 1px;
-  border-radius: 6px;
-  margin-top: 30px;
->>>>>>> 2bd0445dc8b9d63c3228a377a260a14e5fa603eb
 }
 
 page-login .ion-row {
@@ -25737,11 +25725,7 @@ page-login .item-inner {
 }
 
 page-login .submit-btn {
-<<<<<<< HEAD
   background: #26c910;
-=======
-  background: #51CFB1;
->>>>>>> 2bd0445dc8b9d63c3228a377a260a14e5fa603eb
   border-radius: 30px !important;
   border: 1px solid #ffffff;
 }
@@ -25749,4 +25733,8 @@ page-login .submit-btn {
 page-login .register-btn {
   color: #ffffff;
   font-size: 0.8em;
+}
+
+page-novo-aluno .ion-app.md [padding] .scroll-content {
+  padding: 0px;
 }
